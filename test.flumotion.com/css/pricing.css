@@ -1,0 +1,245 @@
+/*-------------PRICING-------------*/
+
+/*--Pricing Table--*/
+
+#pricing_table{
+    margin: 27px auto;
+    width: 962px;
+    height: 560px;
+}
+
+#pricing_table{
+    font-family: Helvetica,'Helvetica Neue',Arial;
+}
+
+#pricing_table tr{
+    height: 53px;
+}
+
+
+#pricing_table tr.double{
+    height: 66px;
+}
+
+#pricing_table tr.footer{
+    height: 64px;
+}
+
+.monthly {
+    color: #444444;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 8px;
+    vertical-align: -21px;
+}
+
+small{
+    font-size:small;
+}
+/*--headers--*/
+
+#pricing_table th{
+    background:url(../images/pricing/th_background.png) top left no-repeat;
+    text-align: center;
+    width:201px;
+    height:69px;
+    padding:4px 7px 0 7px;
+    font-size: 23px;
+    line-height:22px;
+    font-weight:bold;
+    color:#fff;
+    vertical-align: middle;
+}
+
+#pricing_table th.first {
+    padding: 4px 7px 0;
+}
+
+#pricing_table th.last {
+    padding: 4px 0 0 7px;
+}
+
+#pricing_table th.arrow{
+    width:15px;
+    padding:0;
+    background:none;
+}
+
+#pricing_table th.end{
+    text-align: center;
+    width:95px;
+    height:69px;
+    padding:0;
+    background:none;
+}
+
+/*--Cell & columns--*/
+
+#pricing_table td{
+    color:#777;
+    font-size:18px;
+    line-height: 20px;
+    width:201px;
+    background:
+    	url(../images/pricing/td_separator.png) bottom left no-repeat,
+        url(../images/pricing/td_background.png) top left repeat-y;
+    vertical-align: middle;
+    text-align: center;
+    padding:4px 7px 0 7px;
+}
+
+#pricing_table td.first{
+    padding: 4px 7px 0;
+    width: 201px;
+}
+
+#pricing_table td.last{
+    padding: 4px 0 0 7px;
+}
+
+#pricing_table td.spaceSingle{
+    background:url(../images/pricing/pricing_smallComment.png) center left no-repeat;
+    width:15px;
+    padding-right:0;
+}
+
+#pricing_table td.spaceDouble{
+    background:url(../images/pricing/pricing_largeComment.png) center left no-repeat;
+    width:15px;
+    padding-right:0;
+}
+
+
+#pricing_table td.lastSingle{
+    color:#fff;
+    font-size:13px;
+    font-weight: bold;
+    letter-spacing:0.015em;
+    line-height:15px;
+    width:95px;
+    background:url(../images/pricing/pricing_smallComment.png) center right no-repeat;
+    vertical-align: middle;
+    text-align: left;
+    padding-right:0;	
+}
+
+#pricing_table td.lastDouble{
+    color:#fff;
+    font-size:13px;
+    font-weight: bold;
+    letter-spacing:0.015em;
+    line-height:15px;
+    width:95px;
+    background:url(../images/pricing/pricing_largeComment.png) center right no-repeat;
+    vertical-align: middle;
+    text-align: left;
+    padding-right:0;	
+}
+
+/*---footer---*/
+
+#pricing_table tfoot{
+    height:75px;
+}
+
+#pricing_table td.Footer{
+    color:#777;
+    font-size:18px;
+    line-height: 29px;
+    width:201px;
+    background: url(../images/pricing/tf_background.png) top left repeat-y;
+    text-align: center;
+    padding:4px 7px 0 7px;
+}
+
+#pricing_table td.firstFooter{
+    background: url(../images/pricing/tf_background.png) top left repeat-y;
+    padding: 4px 7px 0;
+}
+#pricing_table tfoot.firstFooter{
+    background: none;
+    padding: 4px 7px 0;
+}
+
+#pricing_table td.lastFooter{
+    background: url(../images/pricing/tf_background.png) top left repeat-y;
+    padding: 4px 0 0 7px;
+}
+
+/*--TF--*/
+#pricing_table tr.demo{
+    height:75px;
+}
+
+#pricing_table td.f{
+    color:#777;
+    font-size:18px;
+    line-height: 29px;
+    width:201px;
+    background: none;
+    text-align: center;
+    padding:16px 7px 0 7px;
+}
+
+#pricing_table td.firstF{
+    background: none;
+    padding: 16px 7px 0;
+}
+
+#pricing_table td.lastF{
+    background: none;
+    padding: 16px 0 0 7px;
+}
+
+#pricing_table td.spaceF{
+    background:none;
+    width:15px;
+    padding-right:0;
+}
+
+#pricing_table td.lastSingleF{
+    width:95px;
+    background:none;
+    padding-right:0;	
+}
+
+/*--*/
+
+/*--demoButton--*/
+#demoButton{
+    background: url(../images/pricing/demoBtn_normal.png) bottom center no-repeat;
+    border:none;
+    display:block;
+    height: 44px;
+}
+
+#demoButton:hover{
+    background: url(../images/pricing/demoBtn_over.png) bottom center no-repeat;
+}
+
+#demoButton:active{
+    background: url(../images/pricing/demoBtn_down.png) bottom center no-repeat;
+}
+
+/*--comments--*/
+#comment{
+    width:924px;
+    background-color: #fff;
+    border-radius:3px;
+    border: solid 1px #ccc;
+    padding:15px 20px 12px;
+    height:auto;
+    margin:auto;
+    -moz-column-width: 15em;
+   -moz-column-gap: 15px;
+   -webkit-column-width: 15em;
+   -webkit-column-gap: 15px;
+}
+
+#comment p{
+    font-family: verdana, sans-serif;
+    font-size:12px;
+    line-height:17px;
+    color:#999;
+}
+
